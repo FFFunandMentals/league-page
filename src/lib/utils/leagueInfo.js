@@ -158,51 +158,51 @@ export const managers = [
       "tradingScale": 10, // 1 - 10 (optional)
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     }
+    ,{
+      "roster": 6, 
+      "managerID": "1180354171184619520", 
+      "name": "Sav",
+      "location": "Eastie", 
+      "bio": "In the lab",
+      "photo": "https://sleepercdn.com/avatars/thumbs/b3338675f635c2c1f42b469621d38ec6", 
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "ne", 
+      "mode": "Rebuild", 
+      "rival": {
+        name: "Pat", 
+        link: 3, 
+        image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
+      },
+      "favoritePlayer": 7606, 
+      "valuePosition": "WR",
+      "rookieOrVets": "Vets", 
+      "philosophy": "", 
+      "tradingScale": 0, 
+      "preferredContact": "Text",  
+    },
+    {
+      "roster": 7, 
+      "managerID": "784114203505045504", 
+      "name": "Jackson",
+      "location": "Pawtucket", 
+      "bio": "Bama",
+      "photo": "https://sleepercdn.com/uploads/55fb8b16c9c9e32881404f56f24b5f9a.jpg", 
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "ne", 
+      "mode": "Dynasty", 
+      "rival": {
+        name: "Pat", 
+        link: 3, 
+        image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
+      },
+      "favoritePlayer": 8148, 
+      "valuePosition": "WR",
+      "rookieOrVets": "Vets", 
+      "philosophy": "", 
+      "tradingScale": 0, 
+      "preferredContact": "Discord",  
+    }
   //   ,{
-  //     "roster": 6, 
-  //     "managerID": "1180354171184619520", 
-  //     "name": "Sav",
-  //     "location": "Eastie", 
-  //     "bio": "In the lab",
-  //     "photo": "https://sleepercdn.com/avatars/thumbs/b3338675f635c2c1f42b469621d38ec6", 
-  //     "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-  //     "favoriteTeam": "ne", 
-  //     "mode": "Rebuild", 
-  //     "rival": {
-  //       name: "Pat", 
-  //       link: 3, 
-  //       image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
-  //     },
-  //     "favoritePlayer": 7606, 
-  //     "valuePosition": "WR",
-  //     "rookieOrVets": "Vets", 
-  //     "philosophy": "", 
-  //     "tradingScale": 0, 
-  //     "preferredContact": "Text",  
-  //   },
-  //   {
-  //     "roster": 7, 
-  //     "managerID": "784114203505045504", 
-  //     "name": "Jackson",
-  //     "location": "Pawtucket", 
-  //     "bio": "Bama",
-  //     "photo": "https://sleepercdn.com/uploads/55fb8b16c9c9e32881404f56f24b5f9a.jpg", 
-  //     "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-  //     "favoriteTeam": "ne", 
-  //     "mode": "Dynasty", 
-  //     "rival": {
-  //       name: "Pat", 
-  //       link: 3, 
-  //       image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
-  //     },
-  //     "favoritePlayer": 8148, 
-  //     "valuePosition": "WR",
-  //     "rookieOrVets": "Vets", 
-  //     "philosophy": "", 
-  //     "tradingScale": 0, 
-  //     "preferredContact": "Discord",  
-  //   },
-  //   {
   //     "roster": 8, 
   //     "managerID": "1091818329884545024", 
   //     "name": "Evan",
@@ -248,4 +248,4 @@ export const managers = [
   //   }
 
   ]
-  
+    
