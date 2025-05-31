@@ -160,7 +160,7 @@ export const managers = [
     }
     ,{
       "roster": 6, 
-      "managerID": "1180354171184619520", 
+      "managerID": "1001595681561210880", 
       "name": "Sav",
       "location": "Eastie", 
       "bio": "In the lab",
@@ -202,50 +202,50 @@ export const managers = [
       "tradingScale": 0, 
       "preferredContact": "Discord",  
     }
-  //   ,{
-  //     "roster": 8, 
-  //     "managerID": "1091818329884545024", 
-  //     "name": "Evan",
-  //     "location": "Canton", 
-  //     "bio": "",
-  //     "photo": "https://sleepercdn.com/avatars/thumbs/b319fdf8b7b5b0359d3c78622ba4d70c", 
-  //     "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-  //     "favoriteTeam": "ne", 
-  //     "mode": "Rebuild", 
-  //     "rival": {
-  //       name: "Pat", 
-  //       link: 3, 
-  //       image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
-  //     },
-  //     "favoritePlayer": 2028, 
-  //     "valuePosition": "K",
-  //     "rookieOrVets": "Vets", 
-  //     "philosophy": "", 
-  //     "tradingScale": 0, 
-  //     "preferredContact": "Carrier Pigeon",  
-  //   },
-  //   {
-  //     "roster": 9, 
-  //     "managerID": "784114203505045504", 
-  //     "name": "Waldman",
-  //     "location": "Cali", 
-  //     "bio": "",
-  //     "photo": "https://sleepercdn.com/uploads/5d164843bf77df1fb750ea196c6a76d2.jpg", 
-  //     "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-  //     "favoriteTeam": "ne", 
-  //     "mode": "Win Now", 
-  //     "rival": {
-  //       name: "Pat", 
-  //       link: 3, 
-  //       image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
-  //     },
-  //     "favoritePlayer": 11604, 
-  //     "valuePosition": "WR",
-  //     "rookieOrVets": "Vets", 
-  //     "philosophy": "", 
-  //     "tradingScale": 0, 
-  //     "preferredContact": "Carrier Pigeon",  
-  //   }
+    ,{
+      "roster": 8, 
+      "managerID": "1091818329884545024", 
+      "name": "Evan",
+      "location": "Canton", 
+      "bio": "",
+      "photo": "https://sleepercdn.com/avatars/thumbs/b319fdf8b7b5b0359d3c78622ba4d70c", 
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "ne", 
+      "mode": "Rebuild", 
+      "rival": {
+        name: "Pat", 
+        link: 3, 
+        image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
+      },
+      "favoritePlayer": 2028, 
+      "valuePosition": "K",
+      "rookieOrVets": "Vets", 
+      "philosophy": "", 
+      "tradingScale": 0, 
+      "preferredContact": "Carrier Pigeon",  
+    },
+    {
+      "roster": 9, 
+      "managerID": "784114203505045504", 
+      "name": "Waldman",
+      "location": "Cali", 
+      "bio": "",
+      "photo": "https://sleepercdn.com/uploads/5d164843bf77df1fb750ea196c6a76d2.jpg", 
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "ne", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Pat", 
+        link: 3, 
+        image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
+      },
+      "favoritePlayer": 11604, 
+      "valuePosition": "WR",
+      "rookieOrVets": "Vets", 
+      "philosophy": "", 
+      "tradingScale": 0, 
+      "preferredContact": "Carrier Pigeon",  
+    }
 
   ]
     
