@@ -23,11 +23,13 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
   
     {
+      "roster": 0, 
       "managerID": "998320730313973760",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "KG",
       "location": "Scituate", // (optional)
       "bio": "Draft pick connoisseur",
       "photo": "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -43,11 +45,13 @@ export const managers = [
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
+      "roster": 1, 
       "managerID": "784114203505045504", 
       "name": "Lou",
       "location": "Milton", // (optional)
       "bio": "Kyle Pitts' biggest fan",
       "photo": "https://sleepercdn.com/uploads/f0b35bd6479d7aaa261cdea96737b66d.jpg", 
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", 
       "mode": "Win Now", 
       "rival": {
@@ -63,7 +67,7 @@ export const managers = [
       "preferredContact": "Sleeper",  
     },
       {
-      "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 2,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "999508495307362304",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Derek",
       "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -109,7 +113,7 @@ export const managers = [
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 4,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "999505927994777600",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Nick",
       "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -132,7 +136,7 @@ export const managers = [
       "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": 5,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "1000056433774346240",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Andrew",
       "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -155,11 +159,13 @@ export const managers = [
       "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
+      "roster": 6, 
       "managerID": "1180354171184619520", 
       "name": "Sav",
       "location": "Eastie", 
       "bio": "In the lab",
       "photo": "https://sleepercdn.com/avatars/thumbs/b3338675f635c2c1f42b469621d38ec6", 
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", 
       "mode": "Rebuild", 
       "rival": {
@@ -175,11 +181,13 @@ export const managers = [
       "preferredContact": "Text",  
     },
     {
+      "roster": 7, 
       "managerID": "784114203505045504", 
       "name": "Jackson",
       "location": "Pawtucket", 
       "bio": "Bama",
       "photo": "https://sleepercdn.com/uploads/55fb8b16c9c9e32881404f56f24b5f9a.jpg", 
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", 
       "mode": "Dynasty", 
       "rival": {
@@ -195,11 +203,13 @@ export const managers = [
       "preferredContact": "Discord",  
     },
     {
+      "roster": 8, 
       "managerID": "1091818329884545024", 
       "name": "Evan",
       "location": "Canton", 
       "bio": "",
       "photo": "https://sleepercdn.com/avatars/thumbs/b319fdf8b7b5b0359d3c78622ba4d70c", 
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", 
       "mode": "Rebuild", 
       "rival": {
@@ -215,11 +225,13 @@ export const managers = [
       "preferredContact": "Carrier Pigeon",  
     },
     {
+      "roster": 9, 
       "managerID": "784114203505045504", 
       "name": "Waldman",
       "location": "Cali", 
       "bio": "",
       "photo": "https://sleepercdn.com/uploads/5d164843bf77df1fb750ea196c6a76d2.jpg", 
+      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", 
       "mode": "Win Now", 
       "rival": {
@@ -234,5 +246,6 @@ export const managers = [
       "tradingScale": 0, 
       "preferredContact": "Carrier Pigeon",  
     }
+
   ]
-  
+    
