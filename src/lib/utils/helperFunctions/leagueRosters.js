@@ -31,15 +31,15 @@ const processRosters = (rosters) => {
 		for(const starter of roster.starters) {
 			startersAndReserve.push(starter);
 		}
-		// if(roster.reserve) {
-		try {
+		if(roster.reserve) {
+		// try {
 			for(const ir of roster.reserve) {
 				startersAndReserve.push(ir);
 			}
 		}
-		catch (error) {
-  			console.error(error);
-		}
+		// catch (error) {
+  // 			console.error(error);
+		// }
         rosterMap[roster.roster_id] = roster;
 	}
 	return {rosters: rosterMap, startersAndReserve};
