@@ -161,7 +161,6 @@
 	}
 
 	.rosterBench{
-		overflow: hidden;
 		width: 100%;
 		display: block;
 		transition: max-height 0.7s ease-in-out;
