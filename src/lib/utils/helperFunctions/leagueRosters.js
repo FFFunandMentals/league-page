@@ -37,6 +37,9 @@ const processRosters = (rosters) => {
 				startersAndReserve.push(ir);
 			}
 		}
+		catch (error) {
+  			console.error(error);
+		}
         rosterMap[roster.roster_id] = roster;
 	}
 	return {rosters: rosterMap, startersAndReserve};
