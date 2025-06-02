@@ -75,7 +75,7 @@
 	$: if(roster.players) {
 		finalBench = digestData(players, roster.players);
 	}
-	let finalIR = null;
+	let finalIR = [];
 	if(roster.reserve) {
 		finalIR = digestData(players, roster.reserve, false, true);
 	}
