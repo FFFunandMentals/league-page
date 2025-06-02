@@ -31,7 +31,8 @@ const processRosters = (rosters) => {
 		for(const starter of roster.starters) {
 			startersAndReserve.push(starter);
 		}
-		if(roster.reserve) {
+		// if(roster.reserve) {
+		try {
 			for(const ir of roster.reserve) {
 				startersAndReserve.push(ir);
 			}
