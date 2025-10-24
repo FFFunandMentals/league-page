@@ -1,14 +1,14 @@
 /*   STEP 1   */
-export const leagueID = "1180354171184619520"; // your league ID
-export const leagueName = "Free Market Economy"; // your league name
-export const dues = 100; // (optional) used in template constitution page
+export const leagueID = "1253809266444210176"; // your league ID
+export const leagueName = "The Infirmary"; // your league name
+export const dues = 50; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Free Market Economy Year 3</p>
-  <p>This week's side pot (Week 1): Most Efficient Manager. Least amount of points left on the bench.</p>
+  <p>The Infirmary Inaugural Season</p>
+  // <p>This week's side pot (Week 1): Most Efficient Manager. Least amount of points left on the bench.</p>
 `;
 
 /*   STEP 3   */
@@ -28,7 +28,7 @@ export const managers = [
       "name": "KG",
       "location": "Scituate", // (optional)
       "bio": "Draft pick connoisseur",
-      "photo": "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "https://sleepercdn.com/avatars/thumbs/0a73a6276fd19a4777079523b884db35", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
