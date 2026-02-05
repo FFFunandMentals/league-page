@@ -35,7 +35,7 @@ export const managers = [
       "rival": {
         name: "Bobson Dugnutt, Travis Feeney's protege", // Can be anything (usually your rival's name)
         link: 1, // manager array number within this array, or null to link back to all managers page
-        image: "https://sleepercdn.com/uploads/f0b35bd6479d7aaa261cdea96737b66d.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "https://sleepercdn.com/uploads/5270bc30446492a378c91a347faaa6d6.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 11623, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "Picks", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -50,7 +50,7 @@ export const managers = [
       "name": "Lou",
       "location": "Milton",
       "bio": "Kyle Pitts' biggest fan",
-      "photo": "https://sleepercdn.com/uploads/f0b35bd6479d7aaa261cdea96737b66d.jpg", 
+      "photo": "https://sleepercdn.com/uploads/5270bc30446492a378c91a347faaa6d6.jpg", 
       "fantasyStart": 2014, 
       "favoriteTeam": "ne", 
       "mode": "Win Now", 
@@ -92,12 +92,12 @@ export const managers = [
     },
     {
       "roster": 4,  
-      "managerID": "1253890026295525376", 
+      "managerID": "1000135052807725056", 
       "name": "Ramon",
       // "tookOver": 2020, 
       "location": "DC", 
       "bio": "DJM is WR1",
-      "photo": "https://sleepercdn.com/avatars/thumbs/6a346a1161b2b863d8cc93b1eebbac21",
+      "photo": "https://sleepercdn.com/uploads/65e834115817e15425dd1342f3da0dcc.jpg",
       // "fantasyStart": 2014, 
       "favoriteTeam": "nyg", 
       "mode": "Win Now", 
@@ -120,7 +120,7 @@ export const managers = [
       // "tookOver": 2020, 
       "location": "NY", 
       "bio": "",
-      "photo": "https://sleepercdn.com/avatars/thumbs/6a346a1161b2b863d8cc93b1eebbac21",
+      "photo": "https://sleepercdn.com/uploads/46745a8cebbba9360aa24c5978a786e8.jpg",
       // "fantasyStart": 2014, 
       "favoriteTeam": "ne", 
       "mode": "Win Now", 
