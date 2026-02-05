@@ -7,6 +7,30 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
+  <p>The Infirmary</p>
+  <p>Welcome to the first offseason.</p>
+`;
+
+/*   STEP 3   */
+/*
+3 managers as an example. Uncomment (remove the //) before each line to make it live code
+If you're having trouble, reference the Training Wheels' Manager Section
+https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding-managers-and-changing-the-homepage-text
+*/
+
+// To omit an optional field, set it's value to null
+
+export const managers = [
+  
+    /*   STEP 1   */
+export const leagueID = "1253809266444210176"; // your league ID
+export const leagueName = "The Infirmary"; // your league name
+export const dues = 50; // (optional) used in template constitution page
+export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
+
+/*   STEP 2   */
+export const homepageText = `
   <p>The Infirmary Inaugural Season</p>
   <p>TBD</p>
 `;
@@ -60,36 +84,36 @@ export const managers = [
         image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
       },
       "favoritePlayer": 7553, 
-      "valuePosition": "WR",
+      "valuePosition": "TE",
       "rookieOrVets": "Rookies", 
       "philosophy": "Wait for Kyle Pitts to breakout", 
       "tradingScale": 10, 
       "preferredContact": "Sleeper",  
     }
-  // ,
-  //     {
-  //     "roster": 2,  
-  //     "managerID": "999508495307362304", 
-  //     "name": "Derek",
-  //     "tookOver": 2020, 
-  //     "location": "Unknown", 
-  //     "bio": "",
-  //     "photo": "https://sleepercdn.com/avatars/thumbs/b3338675f635c2c1f42b469621d38ec6",
-  //     "fantasyStart": 2014, 
-  //     "favoriteTeam": "ne", 
-  //     "mode": "Rebuild", 
-  //     "rival": {
-  //       name: "Wagonsack", 
-  //       link: 0,
-  //       image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
-  //     },
-  //     "favoritePlayer": 5859,
-  //     "valuePosition": "WR", 
-  //     "rookieOrVets": "Rookies", 
-  //     "philosophy": "", 
-  //     "tradingScale": 1, 
-  //     "preferredContact": "Carrier Pigeon",  
-  //   },
+  ,
+      {
+      "roster": 3,  
+      "managerID": "1253890026295525376", 
+      "name": "Matt",
+      // "tookOver": 2020, 
+      "location": "Unknown", 
+      "bio": "",
+      "photo": "https://sleepercdn.com/avatars/thumbs/6a346a1161b2b863d8cc93b1eebbac21",
+      "fantasyStart": 2014, 
+      "favoriteTeam": "ne", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Wagonsack", 
+        link: 0,
+        image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
+      },
+      "favoritePlayer": 8155,
+      "valuePosition": "WR", 
+      "rookieOrVets": "Rookies", 
+      "philosophy": "Caleb is just Jusin Fields", 
+      "tradingScale": 10, 
+      "preferredContact": "Text",  
+    }
   // {
   //     "roster": 3,  
   //     "managerID": "996440232788652032", 
