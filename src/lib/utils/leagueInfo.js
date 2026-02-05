@@ -33,7 +33,7 @@ export const managers = [
       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Bobson Dugnutt", // Can be anything (usually your rival's name)
+        name: "Bobson Dugnutt, Travis Feeney's protege", // Can be anything (usually your rival's name)
         link: 1, // manager array number within this array, or null to link back to all managers page
         image: "https://sleepercdn.com/uploads/f0b35bd6479d7aaa261cdea96737b66d.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
@@ -62,7 +62,7 @@ export const managers = [
       "favoritePlayer": 7553, 
       "valuePosition": "TE",
       "rookieOrVets": "Rookies", 
-      "philosophy": "Wait for Kyle Pitts to breakout", 
+      "philosophy": "No longer waiting for Kyle Pitts to breakout", 
       "tradingScale": 10, 
       "preferredContact": "Sleeper",  
     }
@@ -79,16 +79,62 @@ export const managers = [
       "favoriteTeam": "ne", 
       "mode": "Win Now", 
       "rival": {
-        name: "Wagonsack", 
+        name: "Taylor Morales aka MooreBoutte", 
         link: 0,
         image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
       },
       "favoritePlayer": 8155,
       "valuePosition": "WR", 
       "rookieOrVets": "Rookies", 
-      "philosophy": "Caleb is just Jusin Fields", 
+      "philosophy": "Caleb is just Jusin Fields and Im sick about my bruddas", 
       "tradingScale": 10, 
       "preferredContact": "Text",  
+    },
+    {
+      "roster": 4,  
+      "managerID": "1253890026295525376", 
+      "name": "Ramon",
+      // "tookOver": 2020, 
+      "location": "DC", 
+      "bio": "DJM is WR1",
+      "photo": "https://sleepercdn.com/avatars/thumbs/6a346a1161b2b863d8cc93b1eebbac21",
+      // "fantasyStart": 2014, 
+      "favoriteTeam": "nyg", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Kevin", 
+        link: 0,
+        image: "https://sleepercdn.com/uploads/117e3b49c2efbd78acffb26249453bdb.jpg", 
+      },
+      "favoritePlayer": 4983,
+      "valuePosition": "WR", 
+      "rookieOrVets": "Vets", 
+      "philosophy": "This is my moment", 
+      "tradingScale": 5, 
+      "preferredContact": "Sleeper",  
+    },
+    {
+      "roster": 5,  
+      "managerID": "1134585267261755392", 
+      "name": "Marques",
+      // "tookOver": 2020, 
+      "location": "NY", 
+      "bio": "",
+      "photo": "https://sleepercdn.com/avatars/thumbs/6a346a1161b2b863d8cc93b1eebbac21",
+      // "fantasyStart": 2014, 
+      "favoriteTeam": "ne", 
+      "mode": "Win Now", 
+      "rival": {
+        name: "Lou", 
+        link: 1,
+        image: "https://sleepercdn.com/uploads/f0b35bd6479d7aaa261cdea96737b66d.jpg", 
+      },
+      "favoritePlayer": 4983,
+      "valuePosition": "RB", 
+      "rookieOrVets": "Vets", 
+      "philosophy": "Josh Jacobs or bust", 
+      "tradingScale": 10, 
+      "preferredContact": "Sleeper",  
     }
   // {
   //     "roster": 3,  
